@@ -14,12 +14,9 @@ curl -L https://get.rvm.io | bash -s stable --ruby
 # TODO: I think i'd rather curl down the nave.sh, symlink it into /bin and use that for initial node install.
 npm install -g nave
 
-
 # homebrew!
 # you need the code CLI tools YOU FOOL.
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
-
-
 
 # https://github.com/rupa/z
 # z, oh how i love you
@@ -29,7 +26,6 @@ chmod +x ~/code/z/z.sh
 # also consider moving over your current .z file if possible. it's painful to rebuild :)
 
 # z binary is already referenced from .bash_profile
-
 
 # https://github.com/dronir/SpotifyControl
 # Spotify Controll Script
